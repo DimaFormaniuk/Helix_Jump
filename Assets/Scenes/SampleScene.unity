@@ -133,6 +133,8 @@ GameObject:
   m_Component:
   - component: {fileID: 63688711}
   - component: {fileID: 63688712}
+  - component: {fileID: 63688714}
+  - component: {fileID: 63688713}
   m_Layer: 0
   m_Name: Tower
   m_TagString: Untagged
@@ -173,6 +175,35 @@ MonoBehaviour:
   _platform:
   - {fileID: 439213476668563127, guid: 0eaab401691e315468834cb9ed0f5c5d, type: 3}
   _finishPlatform: {fileID: 4663995753982251106, guid: f3b1bc1d0822a77498588296f356e918, type: 3}
+--- !u!54 &63688713
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 63688710}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &63688714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 63688710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75f2dc9f82115404e917a15cafdf7f9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rotateSpeed: 15
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
