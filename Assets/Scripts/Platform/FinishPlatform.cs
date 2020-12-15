@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FinishPlatform : MonoBehaviour
+public class FinishPlatform : Platform
 {
 
 }

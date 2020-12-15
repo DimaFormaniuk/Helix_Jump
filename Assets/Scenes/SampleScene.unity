@@ -167,6 +167,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _levelCount: 5
+  _additionalScale: 3
   _beam: {fileID: 2317514966578559904, guid: 8a37be97203098049aa95ca21b50c871, type: 3}
   _spawnPlatform: {fileID: 949344092859199960, guid: e5dcd30603c13354c915397045567182, type: 3}
   _platform:
