@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 8600068351139331215}
   - component: {fileID: 8600068351139331212}
   - component: {fileID: 8600068351139331213}
+  - component: {fileID: 4596137727976915404}
+  - component: {fileID: 4430043896393031783}
   - component: {fileID: 8600068351139331202}
   m_Layer: 0
   m_Name: Sphere
@@ -96,6 +98,31 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4596137727976915404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8600068351139331203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 970454967d7e6c54a8722bd4582c22cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4430043896393031783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8600068351139331203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e779fdbd7000f9d43814b68639cb0e2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _jumpForce: 3
 --- !u!54 &8600068351139331202
 Rigidbody:
   m_ObjectHideFlags: 0

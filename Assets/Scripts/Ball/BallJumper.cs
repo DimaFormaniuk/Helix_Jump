@@ -18,6 +18,7 @@ public class BallJumper : MonoBehaviour
     {
         if (collision.gameObject.TryGetComponent(out PlatformSegment platformSegment))
         {
+            _rigidbody.velocity = Vector3.zero;
             _rigidbody.AddForce(Vector3.up * _jumpForce, ForceMode.Impulse);
         }
     }
