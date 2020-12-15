@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class Ball : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private void OnTriggerEnter(Collider other)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if(other.TryGetComponent(out PlatformSegment platformSegment))
+        {
+            other.GetComponentInParent<Platform>().Break();
+        }
     }
 }

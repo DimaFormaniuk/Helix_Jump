@@ -47,6 +47,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 837e311a2e713ee40bf360aa57e43516, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _bounceForce: 50
+  _bounceRadius: 50
 --- !u!64 &5106156298526751518
 MeshCollider:
   m_ObjectHideFlags: 0
