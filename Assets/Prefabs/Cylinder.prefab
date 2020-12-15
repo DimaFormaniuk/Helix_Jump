@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1777578718495006407}
   - component: {fileID: 5138062964235747257}
+  - component: {fileID: -1512293162600784558}
   - component: {fileID: 6441720445074746640}
   m_Layer: 0
   m_Name: Cylinder
@@ -40,6 +41,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2317514966578559904}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &-1512293162600784558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2317514966578559904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04ab2e99672b40e40a4982094d65f738, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!23 &6441720445074746640
 MeshRenderer:
   m_ObjectHideFlags: 0
