@@ -20,11 +20,11 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
-  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
-  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientSkyColor: {r: 0.29411766, g: 0.24705882, b: 0.44705883, a: 1}
+  m_AmbientEquatorColor: {r: 0.06666667, g: 0.6156863, b: 0.6431373, a: 1}
+  m_AmbientGroundColor: {r: 0.12156863, g: 0.1254902, b: 0.25490198, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 0
+  m_AmbientMode: 1
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
   m_HaloStrength: 0.5
@@ -174,6 +174,9 @@ MonoBehaviour:
   _spawnPlatform: {fileID: 949344092859199960, guid: e5dcd30603c13354c915397045567182, type: 3}
   _platform:
   - {fileID: 439213476668563127, guid: 0eaab401691e315468834cb9ed0f5c5d, type: 3}
+  - {fileID: 439213476668563127, guid: f5c5c94964e26bb4895be69eeb7e03bd, type: 3}
+  - {fileID: 439213476668563127, guid: e49cc53edc4385c4bb9e06a1d40f1d31, type: 3}
+  - {fileID: 439213476668563127, guid: e911c79736b985444bf6339d592dda9b, type: 3}
   _finishPlatform: {fileID: 4663995753982251106, guid: f3b1bc1d0822a77498588296f356e918, type: 3}
 --- !u!54 &63688713
 Rigidbody:
@@ -240,7 +243,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -273,7 +276,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -333,8 +336,8 @@ Camera:
   m_GameObject: {fileID: 963194225}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.09803922, g: 0.39215687, b: 0.49411765, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
