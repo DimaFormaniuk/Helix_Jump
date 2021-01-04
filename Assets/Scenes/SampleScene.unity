@@ -207,7 +207,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _androidTouch: 0
-  _rotateSpeed: 15
+  _rotateSpeed: 45
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
